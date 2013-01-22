@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+body {
+
+}
+
+
+
+
+h1 {
+
+}
+h2 {
+
+}
+h3 {
+
+}
+h4 {
+
+}
+h5 {
+
+}
+h6 {
+
+}
+
+
+
+
+
+p {
+
+}
+
+
+
+
+a {
+
+	&:hover {
+
+		&:visited {
+
+		}
+	}
+	&:focus {
+
+	}
+	&:visited {
+
+	}
+}
+
+
+
+
+@mixin baseInput {
+
+	&:focus {
+
+	}
+	&.error {
+
+	}
+}
+form {
+	@include dontPrint();
+
+	input.text {
+		@include baseInput;
+	}
+	input.textLong {
+		@include baseInput;
+	}
+	input.textShort {
+		@include baseInput;
+	}
+	select {
+		@include baseInput;
+	}
+	textarea {
+		@include baseInput;
+	}
+
+
+	label {
+
+	}
+
+	input.submit {
+
+	}
+}
+
+
+
+
+ul {
+
+	li {
+
+
+		ul {
+
+		}
+	}
+}
+
+
+
+
+ol {
+
+
+	li {
+
+		ol {
+
+		}
+	}
+}
+
+
+
+dl {
+	dt {
+
+	}
+	dd {
+
+	}
+
+}
+
+table.decorated {
+
+	th, td {
+
+	}
+	thead {
+		th, td {
+
+		}
+	}
+	tbody {
+		th, td {
+
+		}
+	}
+}
+
+#enableResponsiveLink {
+	display: none;
+}
